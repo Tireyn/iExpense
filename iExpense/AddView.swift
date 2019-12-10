@@ -45,7 +45,7 @@ struct AddView: View {
                         self.expenses.items.append(item)
                         self.presentationMode.wrappedValue.dismiss()
                     } else {
-                        self.error(title: "Invalid Value", message: "Please enter an Integer")
+                        self.error(title: "Invalid Value", message: "Please enter a dollar value.")
                     }
                 }
             )
